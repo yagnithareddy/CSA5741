@@ -1,14 +1,21 @@
- #include<stdio.h>
- int main()
- {
- 	int num;
- 	printf("enter an integer:");
- 	scanf("%d",&num);
- 	printf("you entered:%d",num);
- 	return 0;
- }
+#include<stdio.h>
+int main()
+{
+	int num,digit;
+	printf("enter an integer:");
+	scanf("%d",&num);
+	while(num>0)
+	{
+		digit=num%10;
+		printf("%d\n",digit);
+		num/=10;
+	}
+	return 0;
+}
  
  
  OUTPUT:
- enter an integer:5
-you entered:5
+ enter an integer:45
+ 4
+ 5
+ 
