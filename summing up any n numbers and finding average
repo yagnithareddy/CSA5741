@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int i,n,sum=0,num;
+	float average;
+	printf("enter the range of numbers(end limit):\n");
+	scanf("%d",&n);
+	printf("\n enter the elements one by one:\n");
+	for(i=0;i<n;++i)
+	{
+		scanf("%d",&num);
+		sum+=num;
+	}
+	average=sum/n;
+	printf("\nsum of the %d integers = %d",n,sum);
+	printf("\naverage of the %d integers = %f",n,average);
+	return 0;
+}
+
+OUTPUT:
+enter the range of numbers(end limit):
+7
+
+ enter the elements one by one:
+1 4 5 2 7 2 9
+
+sum of the 7 integers = 30
+average of the 7 integers = 4.000000
