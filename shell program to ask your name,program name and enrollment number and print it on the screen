@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Enter your name"
+read $name
+echo "Enter your program name"
+read $prg
+echo "Enter your enrollment number"
+read $en
+
+
+OUTPUT:
+Enter your name
+yagnitha
+Enter your program name
+shell
+Enter your enrollment number
+1234
