@@ -1,0 +1,20 @@
+#!/bin/bash
+echo "Enter value for x : "
+read x
+echo "Enter value for y : "
+read y
+echo "Before: x = $x and y = $y"
+z=$x
+x=$y
+y=$z
+echo "After: x = $x and y = $y"
+
+
+
+OUTPUT:
+Enter value for x :
+12
+Enter value for y :
+4
+Before: x = 12 and y = 4
+After: x = 4 and y = 12
